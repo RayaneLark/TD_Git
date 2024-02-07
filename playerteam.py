@@ -2,6 +2,7 @@ from team import Team
 
 class PlayerTeam(Team):
     def __init__(self, nb_warriors, nb_hunters, nb_wizards, damage, loot, flee):
+        super().__init__()
         self.__nb_warriors = nb_warriors
         self.__nb_hunters = nb_hunters
         self.__nb_wizards = nb_wizards

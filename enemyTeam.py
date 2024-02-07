@@ -1,8 +1,4 @@
-class Team:
-    def __init__(self):
-        pass
-
-    # Autres méthodes et attributs de la classe Team
+from team import Team
 
 class EnemyTeam(Team):
     def __init__(self, unit: str, damage: int, loot: int):
